@@ -1,0 +1,14 @@
+{
+  "_doc": "mode opt-in: only notes with 'pwa: true' go online. Which trips to publish, the password and exact codes to hide live in publish.local.json (stays on the Mac). exclude = filename patterns kept private (opt-out mode only). redact = generic regexes replaced with ‹已隱藏›.",
+  "mode": "opt-in",
+  "trips": [],
+  "exclude": [
+    "09*",
+    "*eSIM*",
+    "*esim*",
+    "00_旅行記帳工作流程.md"
+  ],
+  "redact": [
+    "ICS20\\d\\d-I/\\d+"
+  ]
+}

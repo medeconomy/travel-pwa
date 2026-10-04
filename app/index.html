@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>Travel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Travel">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="top">
+  <button id="back" class="iconbtn" aria-label="返回" hidden>‹</button>
+  <h1 id="title">Travel</h1>
+  <div class="spacer"></div>
+  <button id="searchbtn" class="iconbtn" aria-label="搜尋">⌕</button>
+  <button id="tocbtn" class="iconbtn" aria-label="目錄" hidden>☰</button>
+</header>
+<nav id="tabs" hidden></nav>
+<main id="view"><div class="loading">載入中…</div></main>
+<div id="toast" hidden></div>
+<div id="tocpanel" hidden><div class="tocbox"><div class="tochead">目錄 <button class="iconbtn" id="tocclose">✕</button></div><div id="toclist"></div></div></div>
+<script src="md.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
