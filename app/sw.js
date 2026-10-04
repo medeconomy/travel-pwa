@@ -1,6 +1,6 @@
 /* sw.js — offline-first service worker for Travel PWA.
    VERSION is rewritten by build.py on every build. */
-const VERSION = '20261004-092744';
+const VERSION = '20261004-094705';
 const SHELL_CACHE = 'shell-' + VERSION;
 const DATA_CACHE = 'data-' + VERSION;
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'md.js', 'manifest.webmanifest', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png'];
